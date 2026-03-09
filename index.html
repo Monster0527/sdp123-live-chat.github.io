@@ -1,12 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+ 
 <head>
-<title>My First Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with Yash Educational Institutions. Contact us via this form for inquiries about our programs and services.">
+    <title>Contact Us - Yash Educational Institutions</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
+ 
 <body>
-<h1>Welcome to My Website</h1>
-<p>This website is hosted using GitHub Pages.</p>
+    <header>
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="index.html" title="Go to Home">Home</a></li>
+                <li><a href="about.html" title="Learn About Us">About Us</a></li>
+                <li><a href="courses.html" title="View Our Courses">Courses</a></li>
+                <li><a href="contact.html" title="Get in Touch">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+ 
+    <main>
+        <section>
+            <h1>Contact Us</h1>
+            <p>Have any questions or want to know more about our programs? Reach out to us using the form below:</p>
+            <form action="#" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+ 
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+ 
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+ 
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+ 
+    <footer>
+        <p>&copy; 2024 Yash Educational Institutions. All rights reserved.</p>
+    </footer>
+ 
+    <!-- Embed Zia Chat Bot -->
+    <script type='text/javascript'> 
+ var d=document;s=d.createElement('script');s.type='text/javascript';
+s.defer=true;s.src='https://sdpgrash-azgarduniverse.msappproxy.net/scripts/initialize-external-sdpchat.js';
+t=d.getElementsByTagName('script')[0];t.parentNode.insertBefore(s,t);
+</script>
 </body>
-
+ 
 </html>
